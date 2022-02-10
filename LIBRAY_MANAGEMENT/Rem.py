@@ -3,6 +3,9 @@ from tkinter import messagebox
 import mysql.connector
 from PIL import ImageTk,Image #PIL -> Pillow
 from mysql.connector import Error
+
+# remove user
+
 #creating widow
 class Rem(Tk):
     def __init__(self):
